@@ -1,0 +1,26 @@
+.list-inside {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
+
+.skills-icon {
+    max-width: 120px !important;
+}
+
+.second-skills-row {
+    margin-top: 30px;
+}
+
+.shards-landing-page--1 .welcome {
+    background: url("../images/software.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    height: 575px;
+}
