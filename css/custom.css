@@ -17,10 +17,14 @@
 }
 
 .shards-landing-page--1 .welcome {
-    background: url("../images/software.jpg") no-repeat center center fixed;
+    background: url("../images/cover.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 .card {
     height: 575px;
+}
+
+.contact {
+    padding-bottom: 5rem !important;
 }
