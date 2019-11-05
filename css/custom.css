@@ -21,8 +21,14 @@
     background-size: cover;
 }
 
+.card-deck {
+    display: flex;
+}
+
 .card {
-    height: 575px;
+    flex:1;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .contact {
