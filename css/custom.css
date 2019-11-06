@@ -31,7 +31,16 @@
     padding-right: 0;
 }
 
+.card-body {
+    padding: 1.75rem;
+}
+
 .contact {
     padding-bottom: 5rem !important;
 }
 
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+    text-align: justify;
+}
