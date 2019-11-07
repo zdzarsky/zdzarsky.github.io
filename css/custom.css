@@ -1,7 +1,8 @@
-.list-inside {
+.list-outside {
     padding: 0;
     margin: 0;
-    list-style-position: inside;
+    margin-left: 1rem;
+    list-style-position: outside;
 }
 
 .no-bottom-margin {
@@ -32,7 +33,7 @@
 }
 
 .card-body {
-    padding: 1.75rem;
+    padding: 1.25rem;
 }
 
 .contact {
@@ -40,7 +41,5 @@
 }
 
 li {
-    padding-left: 1em;
-    text-indent: -1em;
     text-align: justify;
 }

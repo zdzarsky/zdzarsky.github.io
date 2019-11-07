@@ -11,6 +11,13 @@ jQuery(document).ready(function(){
 
         });
 
+        jQuery('li').each(function() {
+
+            var text = jQuery(this).html();
+            jQuery(this).html(text.replace(new RegExp(' '+myArrayItem+' ', 'g') , ' '+myArrayItem+'&nbsp;'));
+
+        });
+
     }
 
 });
